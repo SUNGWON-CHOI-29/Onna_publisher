@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinnerArray1">
+        <item>----메인---</item>
+        <item>메인 A</item>
+        <item>메인 B</item>
+        <item>메인 C</item>
+    </string-array>
+    <string-array name="spinnerArray2">
+        <item>--사이드--</item>
+        <item>사이드 A</item>
+        <item>사이드 B</item>
+        <item>사이드 C</item>
+    </string-array>
+    <string-array name="spinnerArray3">
+        <item>----음료---</item>
+        <item>음료 A</item>
+        <item>음료 B</item>
+        <item>음료 C</item>
+    </string-array>
+</resources>

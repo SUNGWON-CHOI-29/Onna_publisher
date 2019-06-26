@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "713661502120",
+    "project_id": "onna-b7933"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:713661502120:android:5aaf4f5df281a6d1",
+        "android_client_info": {
+          "package_name": "com.example.watsonz.onna_publisher"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAl_POQ0JPvkmFBHTu_E6AniT77czzU60"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants">
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/store_img" />
+    <TextView android:id="@+id/tv_store"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="store"
+        android:layout_toRightOf="@id/store_img"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_store"
+        android:layout_toRightOf="@id/store_img"
+        android:layout_marginLeft="10dp"
+        android:text="tiem"
+        android:id="@+id/tv_time"/>
+    <TextView
+        android:id="@+id/tv_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_time"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/store_img"
+        android:layout_marginLeft="25dp"
+        android:text="메인" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_mainA"
+        android:layout_below="@id/tv_main"
+        android:layout_marginLeft="25dp"
+        android:layout_toRightOf="@id/store_img"
+        android:text="A - 0"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_mainB"
+        android:layout_below="@id/tv_mainA"
+        android:layout_marginLeft="25dp"
+        android:layout_toRightOf="@id/store_img"
+        android:text="B - 0"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_mainC"
+        android:layout_below="@id/tv_mainB"
+        android:layout_marginLeft="25dp"
+        android:layout_toRightOf="@id/store_img"
+        android:text="C - 0"/>
+    <TextView
+        android:id="@+id/tv_main_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_time"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/tv_main"
+        android:textColor="@color/btn_logut_bg"
+        android:text="1" />
+    <TextView
+        android:id="@+id/tv_side"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_time"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/tv_main_num"
+        android:layout_marginLeft="10dp"
+        android:text="|  사이드" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_sideA"
+        android:layout_below="@id/tv_side"
+        android:layout_marginLeft="25dp"
+        android:layout_toRightOf="@id/tv_main_num"
+        android:text="A - 0"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_sideB"
+        android:layout_below="@id/tv_sideA"
+        android:layout_marginLeft="25dp"
+        android:layout_toRightOf="@id/tv_main_num"
+        android:text="B - 0"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_sideC"
+        android:layout_below="@id/tv_sideB"
+        android:layout_marginLeft="25dp"
+        android:layout_toRightOf="@id/tv_main_num"
+        android:text="C - 0"/>
+    <TextView
+        android:id="@+id/tv_side_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_time"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/tv_side"
+        android:textColor="@color/btn_logut_bg"
+        android:text="1" />
+    <TextView
+        android:id="@+id/tv_drink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_time"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/tv_side_num"
+        android:layout_marginLeft="10dp"
+        android:text="|  음료" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_drinkA"
+        android:layout_below="@id/tv_drink"
+        android:layout_marginLeft="25dp"
+        android:layout_toRightOf="@id/tv_side_num"
+        android:text="A - 0"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_drinkB"
+        android:layout_below="@id/tv_drinkA"
+        android:layout_marginLeft="25dp"
+        android:layout_toRightOf="@id/tv_side_num"
+        android:text="B - 0"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_drinkC"
+        android:layout_below="@id/tv_drinkB"
+        android:layout_marginLeft="25dp"
+        android:layout_toRightOf="@id/tv_side_num"
+        android:text="C - 0"/>
+    <TextView
+        android:id="@+id/tv_drink_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_time"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/tv_drink"
+        android:textColor="@color/btn_logut_bg"
+        android:text="2" />
+</RelativeLayout>
